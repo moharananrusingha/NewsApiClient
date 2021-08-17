@@ -18,6 +18,7 @@ buildscript {
         //dagger-hilt
         def hilt_version = "2.38.1"
         classpath "com.google.dagger:hilt-android-gradle-plugin:$hilt_version"
+        classpath 'org.sonarsource.scanner.gradle:sonarqube-gradle-plugin:3.0'
 
     }
 }
